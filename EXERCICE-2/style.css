@@ -1,0 +1,84 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  display: flex;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  background-color: aliceblue;
+}
+
+.head{
+  display: grid;
+  background-color: green;
+  grid-row: 1;
+  grid-column: 3 span;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.chair{
+  margin: auto;
+}
+.thelaidback{
+  margin: auto;
+}
+.the_workerbee{
+  margin: auto;
+}
+.the_chair{
+  margin: auto;
+}
+
+.next_row{
+  display: flex;
+  grid-row: 2;
+  grid-column: span 3;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.next_row2{
+  text-align: center;
+  display: flex;
+  grid-row: 3;
+  background-color: rgb(187, 187, 188);;
+  grid-column: span 3;
+  justify-content: space-around;
+  align-items: center;
+}
+.next_row3{
+  display: flex;
+  grid-row: 4;
+  grid-column: span 3;
+  justify-content: space-around;
+  align-items: center;
+}
+.next_row4{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  grid-row: 5;
+  grid-column: span 3;
+  background-color: rgb(187, 187, 188);;
+}
